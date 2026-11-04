@@ -1,0 +1,17 @@
+{
+  "name": "printbot-whatsapp",
+  "version": "1.0.0",
+  "description": "بوت مطبعة - نسخة واتساب (WhatsApp Cloud API)",
+  "main": "whatsapp-index.js",
+ "scripts": {
+    "start": "node src/whatsapp-index.js",
+    "start:telegram": "node src/index.js"
+},
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.52.0",
+    "telegraf": "^4.16.3"
+  }
+}
